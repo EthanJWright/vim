@@ -291,7 +291,7 @@ _application.ShowsSniperHasLostAuction();
 #### 
 
 
-##### Difficult: Transpose two arrays into one
+#### Difficult: Transpose two arrays into one
 
 Start file:
 
@@ -304,4 +304,71 @@ End File:
 
 ```
 [1,a,2,b,3,c,4,d,5,e,6,f,7,g,8,h,9,i,0]
+```
+
+#### Replace lines with last chunk
+
+Start File
+
+```
+First:
+        Junk text.
+Second:
+        Junk text.
+Third:
+        Junk text.
+Last:
+        Copy these lines,
+        and replace the text
+        in each heading above.
+```
+
+End File:
+
+```
+First:
+        Copy these lines,
+        and replace the text
+        in each heading above.
+Second:
+        Copy these lines,
+        and replace the text
+        in each heading above.
+Third:
+        Copy these lines,
+        and replace the text
+        in each heading above.
+Last:
+        Copy these lines,
+        and replace the text
+        in each heading above.
+```
+
+#### Switch variable
+
+Start File:
+
+```
+   int foovariable, barins = 1; 
+```
+
+End File:
+
+```
+   int barins, foovariable = 1; 
+```
+
+
+#### Put Hyphens Everywhere
+
+Start File:
+
+```
+abcdefghijklm
+```
+
+End File:
+
+```
+-a-b-c-d-e-f-g-h-i-j-k-l-m-
 ```
